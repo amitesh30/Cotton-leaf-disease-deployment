@@ -33,17 +33,12 @@ import streamlit as st
 
 
 
-from keras.utils.data_utils import get_file
-weights_path = get_file(
-            'model',
-            'https://drive.google.com/file/d/1TLvqnFG-jsh-fKECpXei8snjKhcskoLk/view?usp=share_link')
-model.load_weights(weights_path)
 
 
 
 
 # Define the CNN model
-# model = tf.keras.models.load_model(r"C:\Users\amite\Downloads\resnet152V2_model.h5")
+model = tf.keras.models.load_model("model.h5")
 
 # Define the image classification labels
 labels = ['The leaf is diseased cotton leaf', 'The leaf is diseased cotton plant', 'The leaf is fresh cotton leaf', 'The leaf is fresh cotton plant']
