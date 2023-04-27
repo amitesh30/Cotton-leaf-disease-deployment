@@ -37,7 +37,7 @@ import streamlit as st
 
 import subprocess
 if not os.path.isfile('model_1.h5'):
-    subprocess.run(['curl --output model_1.h5 "https://drive.google.com/file/d/1TLvqnFG-jsh-fKECpXei8snjKhcskoLk/view?usp=share_link"'], shell=True)
+    subprocess.run(['curl --output model_1.h5 "https://drive.google.com/file/d/1TLvqnFG-jsh-fKECpXei8snjKhcskoLk/view?usp=share_link.h5"'], shell=True)
 
 # Define the CNN model
 model = tf.keras.models.load_model("model_1.h5",compile=False)
