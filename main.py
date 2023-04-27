@@ -38,7 +38,7 @@ import streamlit as st
 
 
 # Define the CNN model
-model = tf.keras.models.load_model("model.h5")
+model = tf.keras.models.load_model("model.h5",compile=False)
 
 # Define the image classification labels
 labels = ['The leaf is diseased cotton leaf', 'The leaf is diseased cotton plant', 'The leaf is fresh cotton leaf', 'The leaf is fresh cotton plant']
