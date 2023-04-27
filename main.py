@@ -35,12 +35,12 @@ import streamlit as st
 
 
 
-import subprocess
-if not os.path.isfile('model_1.h5'):
-    subprocess.run(['curl --output model_1.h5 "https://github.com/AMITESH30/WEB_deploy/blob/main/model.h5"'], shell=True)
+# import subprocess
+# if not os.path.isfile('model_1.h5'):
+#     subprocess.run(['curl --output model_1.h5 "https://github.com/AMITESH30/WEB_deploy/blob/main/model.h5"'], shell=True)
 
 # Define the CNN model
-model = tf.keras.models.load_model("model_1.h5",compile=False)
+model = tf.keras.models.load_model("model.h5",compile=False)
 
 # Define the image classification labels
 labels = ['The leaf is diseased cotton leaf', 'The leaf is diseased cotton plant', 'The leaf is fresh cotton leaf', 'The leaf is fresh cotton plant']
