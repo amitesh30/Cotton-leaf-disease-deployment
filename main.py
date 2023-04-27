@@ -34,10 +34,9 @@ import streamlit as st
 
 
 
-
-# import subprocess
-# if not os.path.isfile('model_1.h5'):
-#     subprocess.run(['curl --output model_1.h5 "https://github.com/AMITESH30/WEB_deploy/blob/main/model.h5"'], shell=True)
+import subprocess
+if not os.path.isfile('model_1.h5'):
+    subprocess.run(['curl --output model_1.h5 "https://github.com/AMITESH30/WEB_deploy/blob/main/model.h5?raw=true"'], shell=True)
 
 # Define the CNN model
 model = tf.keras.models.load_model("model.h5")
