@@ -12,9 +12,9 @@ print(os.getcwd())
 
 import subprocess
 
-if st.button('EDA'):
-    subprocess.run(["streamlit", "run", "second.py"])
-import streamlit as st
+# if st.button('EDA'):
+#     subprocess.run(["streamlit", "run", "second.py"])
+# import streamlit as st
 
 
 #
