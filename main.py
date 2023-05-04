@@ -201,7 +201,7 @@ with tab3:
         # Preprocess the image and make a prediction
         image = preprocess_image(image)
         prediction = model.predict(image)
-        print(np.argmax(prediction))
+        st.write(np.argmax(prediction))
         label = labels[np.argmax(prediction)]
 
         # Display the edge-detected image side by side with the original image
