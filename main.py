@@ -168,7 +168,7 @@ with tab3:
     st.write("MODEL")
 
     # Define the CNN model
-    model = tf.keras.models.load_model(r"vgg16model.h5")
+    model = tf.keras.models.load_model(r"resnet152V2_model.h5")
 
     # Define the image classification labels
     labels = ['The leaf is diseased cotton leaf', 'The leaf is diseased cotton plant', 'The leaf is fresh cotton leaf',
