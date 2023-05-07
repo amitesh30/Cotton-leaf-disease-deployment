@@ -9,6 +9,7 @@ from streamlit_option_menu import option_menu
 st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
 # switch pages with buttons on navigation bar
 
+config = st.secrets["config"]
 
 
 tab1, tab2, tab3 = st.tabs(["About us", "Our Project", "MODEL"])
