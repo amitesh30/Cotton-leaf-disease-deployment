@@ -32,7 +32,7 @@ The model was trained using TensorFlow and Keras, and achieved an accuracy of ov
 
 You can try out the cotton leaf disease detection app by visiting our website:
 
-- Link: [https://amitesh30-cotton-leaf-disease-deployment-main-kcsx2k.streamlit.app/](https://amitesh30-cotton-leaf-disease-deployment-main-kcsx2k.streamlit.app/)
+- Link: [https://amitesh30-cotton-leaf-disease-deployment-main-kcsx2k.streamlit.app/]([https://amitesh30-cotton-leaf-disease-deployment-main-kcsx2k.streamlit.app/](https://huggingface.co/spaces/randomshit11/cotton-plant-disease-prediction))
 
 ## License
 
